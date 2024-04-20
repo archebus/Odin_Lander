@@ -1,0 +1,114 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+body {
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div {
+    display: flex;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 24px;
+    padding-top: 30px;
+}
+
+.spanblue {
+    background-color: #1F2937;
+    color: white;
+}
+
+.spanwhite {
+    background-color: #FFFFFF;
+    color: #1f2937;
+}
+
+.container {
+    flex: 1;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 0px;
+    align-items: center;
+}
+
+.menuleft {
+    flex: 1;
+    justify-content: flex-start;
+}
+
+.menuright {
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.menuitem {
+    padding-left: 50px;
+}
+
+#logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#headerspace {
+    padding: 150px 0px;
+}
+
+.headerleft {
+    flex: 1;
+    flex-direction: column;
+    padding-right: 30px;
+}
+
+.headerleft > p {
+    flex: 1;
+}
+
+.headerleft > button {
+    font-weight: bold;
+    background-color: #3882F6;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    margin: 20px 0px;
+    padding: 10px;
+}
+
+#infospan {
+    flex: 1;
+    justify-content: center;
+}
+
+.imagecontainer {
+    flex: 1;
+    justify-content: center;
+}
+
+.roundedimage {
+    padding: 20px;
+    flex-direction: column;
+    max-width: 180px;
+}
+
+.roundedimage > img {
+    border: solid 2px #3882F6;
+    border-radius: 15px;
+}
+
+.roundedimage > p {
+    font-size: 12px;
+    text-align: center;
+    padding-top: 5px;
+}
